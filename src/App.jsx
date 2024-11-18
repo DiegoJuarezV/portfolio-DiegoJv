@@ -1,10 +1,10 @@
 import AboutMe from "./Components/AboutMe";
-import Header from "./Components/Header";
+import { NavbarSimple } from "./Components/Header";
 
 function App() {
   return (
     <>
-      <Header />
+      <NavbarSimple />
       <AboutMe />
     </>
   )
