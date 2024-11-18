@@ -33,11 +33,13 @@ const AboutMe = () => {
         </h1>
       </div>
 
-      <div className="flex flex-col lg:flex-row m-10 space-y-4 lg:space-y-0 lg:space-x-4 text-center h-auto px-4 w-full mx-auto">
-        <div className="flex items-center justify-center flex-col border border-black rounded-lg p-4 w-full lg:w-1/3">
+      <div className="flex flex-col lg:flex-row m-10 space-y-4 lg:space-y-0 lg:space-x-4 text-center h-auto 
+        px-4 w-full mx-auto">
+        <div className="flex items-center justify-center hover:bg-black hover:text-white flex-col border 
+          border-black rounded-lg p-4 w-full lg:w-1/3">
           <FontAwesomeIcon icon={faLaptop} className='text-4xl mb-4 text-cyan-800' /> 
           <div className="mb-4">
-            <h1 className="text-xl text-black font-bold mb-4">Desarrollo FrontEnd</h1>
+            <h1 className="text-xl font-bold mb-4">Desarrollo FrontEnd</h1>
             <p>
               Manejo JavasScript, Libreria de React, TypeScrip, que ayudan a generar sitios web dinámicos y escalables
             </p>
@@ -59,10 +61,11 @@ const AboutMe = () => {
             </Badge>
           </div>
         </div>
-        <div className="flex items-center justify-center flex-col border border-black rounded-lg p-4 w-full lg:w-1/3">
+        <div className="flex items-center justify-center hover:bg-black hover:text-white flex-col 
+          border border-black rounded-lg p-4 w-full lg:w-1/3">
           <FontAwesomeIcon icon={faServer} className='text-4xl mb-4 text-cyan-800' />
           <div className="mb-4">
-            <h1 className="text-xl text-black font-bold mb-4">Desarrollo BackEnd</h1>
+            <h1 className="text-xl font-bold mb-4">Desarrollo BackEnd</h1>
             <p>
               Desarrollo de parte del backend para aplicaciones web funcionales, API REST y manejo de Bases de Datos
             </p>
@@ -85,10 +88,11 @@ const AboutMe = () => {
             </Badge>
           </div>         
         </div>
-        <div className="flex items-center justify-center flex-col border border-black rounded-lg p-4 w-full lg:w-1/3">
+        <div className="flex items-center justify-center hover:bg-black hover:text-white flex-col 
+          border border-black rounded-lg p-4 w-full lg:w-1/3">
           <FontAwesomeIcon icon={faTools} className='text-4xl mb-4 text-cyan-800' />
           <div className="mb-4">
-            <h1 className="text-xl text-black font-bold mb-4">Herramientas</h1>
+            <h1 className="text-xl font-bold mb-4">Herramientas</h1>
             <p>
               Manejo de herramientas para desarrolladores como Git, GitHub y teconologías como AWS y Docker
             </p>
