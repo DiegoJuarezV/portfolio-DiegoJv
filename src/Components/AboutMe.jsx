@@ -27,7 +27,7 @@ const AboutMe = () => {
         <h1 className="text-3xl text-white font-bold mb-5">Sobre mí</h1>
         <h1 className="text-white w-3/4 md:h-1/2 text-center text-sm md:text-xl">
           Soy Diego Juárez, Ingeniero Industrial y actualmente busco una oportunidad como 
-          Desarrollador Web, tanto backend como en frontend, cuento con conociemientos en React, Tailwind, 
+          Desarrollador Web, tanto backend como en frontend, cuento con conocimientos en React, Tailwind, 
           Typescript y en backend en tecnologías como Spring Boot, Spring Security y Bases de Datos como MySQL, 
           y siempre busco aprender tecnologías nuevas.
         </h1>
