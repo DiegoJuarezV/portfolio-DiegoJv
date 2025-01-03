@@ -1,38 +1,11 @@
 import '@fortawesome/fontawesome-free/css/all.css'
-
-const projectName = [
-  "Proyecto odontólogos", 
-  "Control de gastos", 
-  "Tienda de guitarras", 
-  "Registro de veterinaria", 
-  "Seguidor de calorias", 
-  "Registro de pedidos"
-]
-
-const projectLink = {
-  githubLink: [
-    "https://github.com/DiegoJuarezV/f3-proyectoFinal.git",
-    "https://github.com/DiegoJuarezV/expense-control.git",
-    "https://github.com/DiegoJuarezV/guitarStore-ts.git",
-    "https://github.com/DiegoJuarezV/veterinaria-registro.git",
-    "https://github.com/DiegoJuarezV/calorie-appTracker.git",
-    "https://github.com/DiegoJuarezV/orderCounter.git"
-  ],
-  deployLink: [
-    "https://f3-proyecto-final.vercel.app/",
-    "https://expense-control-omega.vercel.app/",
-    "https://guitar-store-ts-sage.vercel.app/",
-    "https://veterinaria-registro.vercel.app/",
-    "https://calorie-app-tracker.vercel.app/",
-    "https://order-counter-sigma.vercel.app/"
-  ]
-}
+import { projectLink, projectName } from '../utils/dataProject';
 
 const Projects = () => {
   return (
     <section>
       <h1 className="font-black text-3xl text-center m-6">Proyectos creados</h1>
-      <div className="grid grid-cols-3 m-6 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 m-6 gap-4">
         {projectName.map((name, i) => (
           <div
             key={i}
