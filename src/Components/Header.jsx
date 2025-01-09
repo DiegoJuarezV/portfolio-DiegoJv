@@ -14,10 +14,10 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-bold"
       >
-        <a href="#" className="flex items-center text-base lg:text-lg hover:bg-cyan-900 hover:text-white p-3 
-          rounded-xl transition-colors">
+        <a href="#aboutMe" className="flex items-center text-base lg:text-lg hover:bg-cyan-900 
+          hover:text-white p-3 rounded-xl transition-colors">
           Sobre mí
         </a>
       </Typography>
@@ -25,10 +25,10 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-bold"
       >
-        <a href="#" className="flex items-center text-base lg:text-lg hover:bg-cyan-900 hover:text-white p-3 rounded-xl 
-          transition-colors">
+        <a href="#projects" className="flex items-center text-base lg:text-lg hover:bg-cyan-900 
+          hover:text-white p-3 rounded-xl transition-colors">
           Proyectos
         </a>
       </Typography>
@@ -36,10 +36,21 @@ function NavList() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-medium"
+        className="p-1 font-bold"
       >
-        <a href="#" className="flex items-center text-base lg:text-lg hover:bg-cyan-900 hover:text-white p-3 rounded-xl 
-          transition-colors">
+        <a href="#infoProjects" className="flex items-center text-base lg:text-lg hover:bg-cyan-900 
+          hover:text-white p-3 rounded-xl transition-colors">
+          Info Proyectos
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-bold"
+      >
+        <a href="#contact" className="flex items-center text-base lg:text-lg hover:bg-cyan-900 
+          hover:text-white p-3 rounded-xl transition-colors">
           Contacto
         </a>
       </Typography>
@@ -62,7 +73,7 @@ export function NavbarSimple() {
   }, []);
  
   return (
-    <Navbar className="max-w-full px-6 py-3 sticky top-0">
+    <Navbar className="fixed top-0 max-w-full z-20 bg-blue-gray-500 px-6 py-3 shadow-lg">
       <div className="flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"

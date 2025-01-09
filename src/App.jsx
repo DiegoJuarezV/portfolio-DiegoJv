@@ -1,5 +1,6 @@
 import AboutMe from "./Components/AboutMe";
 import { CarouselWithContent } from "./Components/CarouselInfo";
+import Footer from "./Components/Footer";
 import { NavbarSimple } from "./Components/Header";
 import Projects from "./Components/Projects";
 
@@ -10,6 +11,7 @@ function App() {
       <AboutMe />
       <Projects />
       <CarouselWithContent />
+      <Footer />
     </>
   )
 }

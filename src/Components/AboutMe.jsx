@@ -4,12 +4,12 @@ import { Badge, Button } from '@material-tailwind/react'
 
 const AboutMe = () => {
   return (
-    <section className="flex flex-col">
-      <div className="mt-10 w-full flex justify-center">
+    <section id='aboutMe' className="flex flex-col">
+      <div className="mt-28 w-full flex justify-center">
         <img 
-          src="/desarrollador-ejemplo.svg" 
+          src="/fotoPerfil.jpg" 
           alt="logo de perfil"
-          className="h-24 rounded-full"  
+          className="h-56 rounded-full"  
         />
       </div>
       <div className="text-center mt-10 w-full">
@@ -23,13 +23,10 @@ const AboutMe = () => {
           className="w-full md:w-3/4 h-[18rem]" 
         />
       </div>
-      <div className="bg-cyan-900 h-72 flex flex-col items-center justify-center w-full">
-        <h1 className="text-3xl text-white font-bold mb-5">Sobre mí</h1>
-        <h1 className="text-white w-3/4 md:h-1/2 text-center text-sm md:text-xl">
-          Soy Diego Juárez, Ingeniero Industrial y actualmente busco una oportunidad como 
-          Desarrollador Web, tanto backend como en frontend, cuento con conocimientos en React, Tailwind, 
-          Typescript y en backend en tecnologías como Spring Boot, Spring Security y Bases de Datos como MySQL, 
-          y siempre busco aprender tecnologías nuevas.
+      <div className="bg-blue-gray-500 h-72 flex flex-col items-center justify-center w-full">
+        <h1 className="text-3xl text-black font-bold mb-5">Sobre mí</h1>
+        <h1 className="text-black w-3/4 md:h-1/2 text-center text-sm md:text-xl">
+          Soy Diego Juárez, Ingeniero Industrial en transición hacia el desarrollo web. Estoy enfocado en oportunidades como Desarrollador Full Stack, con experiencia en tecnologías como React, Tailwind, TypeScript, Spring Boot, y Spring Security, además de bases de datos como MySQL. Me apasiona aprender continuamente y explorar nuevas tecnologías para aportar soluciones innovadoras a los proyectos.
         </h1>
       </div>
 
@@ -41,7 +38,7 @@ const AboutMe = () => {
           <div className="mb-4">
             <h1 className="text-xl font-bold mb-4">Desarrollo FrontEnd</h1>
             <p>
-              Manejo JavasScript, Libreria de React, TypeScrip, que ayudan a generar sitios web dinámicos y escalables
+              Manejo JavaScript, React, TypeScript, que ayudan a generar sitios web dinámicos y escalables
             </p>
           </div>
           

@@ -3,7 +3,7 @@ import { projectLink, projectName } from '../utils/dataProject';
 
 const Projects = () => {
   return (
-    <section>
+    <section id='projects'>
       <h1 className="font-black text-3xl text-center m-6">Proyectos creados</h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 m-6 gap-4">
         {projectName.map((name, i) => (
@@ -18,7 +18,7 @@ const Projects = () => {
             </div>
 
             <div className="absolute inset-0 flex flex-col justify-center items-center opacity-0 
-              group-hover:opacity-100 transition-opacity duration-300 bg-cyan-900">
+              group-hover:opacity-100 transition-opacity duration-300 bg-blue-gray-500">
               <p className='text-2xl text-white font-bold m-4'>{name}</p>
               <div className="flex space-x-6 text-white">
                 <a 

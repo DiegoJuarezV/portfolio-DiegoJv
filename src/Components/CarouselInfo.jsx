@@ -7,7 +7,7 @@ export function CarouselWithContent() {
 
   return (
     <>
-    <h1 className="text-2xl lg:text-4xl font-black text-center mt-12">Información detallada sobre proyectos</h1>
+    <h1 id="infoProjects" className="text-2xl lg:text-4xl font-black text-center mt-16">Información detallada sobre proyectos</h1>
     <Carousel className="rounded-xl h-96 w-3/4 mt-7 mb-5 mx-auto">
       <div className="relative h-full w-full">
         <img
@@ -87,7 +87,7 @@ export function CarouselWithContent() {
               color="white"
               className="mb-4 lg:12 opacity-80 text-base lg:text-xl"
             >
-              Catalogo de instrumentos, en este caso guitarras donde puedes seleccionarlas para agregarlas a un carrito de compras, donde podrás agregar más o menos instrumentos en esa sección. 
+              Catalogo de instrumentos; guitarras donde puedes seleccionarlas para agregarlas a un carrito de compras, donde podrás agregar más o menos instrumentos en esa sección. 
             </Typography>
             <div className="flex justify-center">
               <DialogSizes title={title[2]} body={body[2]} />
